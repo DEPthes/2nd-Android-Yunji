@@ -44,18 +44,18 @@
                 android:orientation="horizontal"
                 android:paddingTop="12dp">
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="131dp"
                     android:layout_height="34dp"
-                    android:background="@drawable/button_outline"
+                    android:background="@drawable/button_outline_gray"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:text="커뮤니케이션 능력"
                     android:textColor="@color/gray800"
                     android:layout_marginRight="8dp"/>
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="34dp"
-                    android:background="@drawable/button_outline"
+                    android:background="@drawable/button_outline_gray"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:text="문제해결능력"
@@ -64,7 +64,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="34dp"
-                    android:background="@drawable/button_outline"
+                    android:background="@drawable/button_outline_gray"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:text="팀워크"
@@ -78,7 +78,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="34dp"
-                    android:background="@drawable/button_outline"
+                    android:background="@drawable/button_outline_gray"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:text="리더십"
@@ -87,7 +87,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="34dp"
-                    android:background="@drawable/button_outline"
+                    android:background="@drawable/button_outline_gray"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:text="통찰력"

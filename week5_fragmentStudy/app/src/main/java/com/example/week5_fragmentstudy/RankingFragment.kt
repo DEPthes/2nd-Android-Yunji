@@ -21,6 +21,11 @@ class RankingFragment : Fragment() {
     ): View? {
         _binding = FragmentRankingBinding.inflate(inflater,container,false)
         var view = binding.root
+
+        val userName = (requireActivity() as MainActivity).getUserName()
+        if(userName!=null){
+            binding.userName.text = userName
+        }
         return view
     }
 
