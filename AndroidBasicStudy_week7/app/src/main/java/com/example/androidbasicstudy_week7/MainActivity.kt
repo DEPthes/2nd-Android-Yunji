@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
                 if(isStart){
                     val time = SystemClock.elapsedRealtime() - chronometer.base
                     var sec = time/1000 % 60
-                    var milliSec = time - time/1000 * 1000
+                    var milliSec = ((time - time/1000 * 1000)*0.1).toInt()
                     records.add("$sec.$milliSec")
 //                    runOnUiThread{
 //                        //binding.listRecord.adapter = ArrayAdapter(this@MainActivity, android.R.layout.simple_dropdown_item_1line, records)
