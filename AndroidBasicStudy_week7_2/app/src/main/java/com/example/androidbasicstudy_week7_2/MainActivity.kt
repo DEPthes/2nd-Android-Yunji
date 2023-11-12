@@ -8,7 +8,7 @@ import java.util.Timer
 import java.util.TimerTask
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var binding:ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
 
     var time = 0
     var isRunning = false
